@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-// hi
+// Nothing
 
 public class AdventureGame {
     int lives = 3;
