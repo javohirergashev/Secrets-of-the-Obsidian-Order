@@ -47,6 +47,19 @@ public class ObsidianOrderGame {
 
     static void trialOfWisdom() {
         System.out.println("\n🧠 Trial of Wisdom");
+
+        System.out.println("          _---~~(~~-_."                 );
+        System.out.println("       _{        )   )"                );
+        System.out.println("     ,   ) -~~- ( ,-' )_"              );
+        System.out.println("    (  `-,_..`., )-- '_,)"             );
+        System.out.println("   ( ` _)  (  -~( -_ `,  }"            );
+        System.out.println("   (_-  _  ~_-~~~~`,  ,' )"            );
+        System.out.println("     `~ -^(    __;-,((()))"            );
+        System.out.println("           ~~~~ {_ -_(())"             );
+        System.out.println("                  `\\  }"               );
+        System.out.println("                    { }"       );
+
+
         System.out.println("You enter a dim study hall filled with ancient scrolls.");
         System.out.println("Solve this riddle to proceed:");
         System.out.println("I speak without a mouth and hear without ears. I have nobody, but I come alive with wind. What am I?");
