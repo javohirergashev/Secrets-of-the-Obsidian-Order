@@ -74,6 +74,33 @@ public class ObsidianOrderGame {
 
     static void trialOfFire() {
         System.out.println("\n🔥 Trial of Fire");
+
+    System.out.println(". . . . . . . . . . . . . . . . . .");
+    System.out.println("...............  .###. . . . . . . . . . . . .");
+    System.out.println("................. .###@@. . . . . . . . . . .");
+    System.out.println("................. .@@@@@@. . . . . . . . . .");
+    System.out.println("................. .@@@@@@@#. . . . . . . . .");
+    System.out.println("................. #@@@@@@@@@#. #. . . . . . .");
+    System.out.println("............... #@@@@@@@@@@@@@@##. . . . . .");
+    System.out.println("............. #@@@@@@@@@@@@@@@@@@@#. . . . .");
+    System.out.println(".....  ##.. #@@@@@@@#. #@@@@@@@@@@@#. . . .");
+    System.out.println(".......###.@@@@@@@@@@. .@@@@@@@@@@@#. . . .");
+    System.out.println(".......@@@@@@@@@@@@#. .@@@@@@@@@@@@.  ##...");
+    System.out.println(".....##@@@@@@@@@@@#. .#@@@@@@@@@@@#.#@@@#..");
+    System.out.println("..##@@@@@@@@@@@@@#.. .@@@@@@@@@@@@#.#@@@@@#");
+    System.out.println(".#@@@@@@@@@@@@@@#... #@@@@@@@@@@@#.#@@@@@@@");
+    System.out.println(".#@@@@@@@@@@@@@#... .@@.#@@@@@@@@@@@@@@@#@");
+    System.out.println("##@@@@@@@@@@@@@#........#@@@@@@@@@@@@@@@#.");
+    System.out.println("#@@#@@@@@@@@@@@...........#@@@@@@@@@@@#..");
+    System.out.println(".#@@@@@@@@@@@@@.............@@@@@@@@@#.#.");
+    System.out.println("..##@@@@@@@@@@@@. . . . . . .@@@@@@@@##@..");
+    System.out.println("....##@@@@@@@@@@@#...........@@@@@@@@#...");
+    System.out.println("........#@@@@@@@@@##.........#@@@@@##....");
+    System.out.println("............#@@@@@@@@#.. . .#@@@@##......");
+    System.out.println("................##@@@@@#...##@@##........");
+    System.out.println("....................###@@@###............");
+
+
         System.out.println("The archive bursts into flames. You have 3 options: (a) Find water, (b) Run, (c) Save the old man.");
         String choice = scanner.nextLine().toLowerCase();
         if (choice.equals("c")) {
