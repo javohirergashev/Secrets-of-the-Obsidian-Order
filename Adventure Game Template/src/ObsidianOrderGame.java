@@ -149,11 +149,47 @@ public class ObsidianOrderGame {
 
     static void trialOfShadows() {
         System.out.println("\n🕶 Trial of Shadows");
+
+        System.out.println("         . .... .   ");
+        System.out.println("         ...=@@+.  ");
+        System.out.println("         . *%%%%*.  ");
+        System.out.println("         ..%%%%%#   ");
+        System.out.println("          . @%%@.   ");
+        System.out.println("         ...@%%@.. .  ");
+        System.out.println("    .....%@%%%%%%@%:... ");
+        System.out.println("    ..@%%%%%%%%%%%%%%%.  ");
+        System.out.println(" .. .:%%%%%%%%%%%%%%%%:   ");
+        System.out.println(" .. .=%%%%%%%%%%%%%%%%-.. ");
+        System.out.println(" .. .#%%%%%%%%%%%%%%%%#.. ");
+        System.out.println(" .. .%%@.%%%%%%%%%%.%%@.. ");
+        System.out.println(" .. :%%#.%%%%%%%%%%.#%%.  ");
+        System.out.println(" .. +%%=.@%%%%%%%%@.+%%=. ");
+        System.out.println(" ...#%%.:%%%%%%%%%%.:%%*. ");
+        System.out.println(" ...*%%.=%%%%%%%%%%=.@%=. ");
+        System.out.println("    =%= +%%%%%%%%%%+.+%-. ");
+        System.out.println("    -%%.+%%%%%%%%%%+.%%-. ");
+        System.out.println(" . .*%*.=%%%%#%%%%%-.+%+. ");
+        System.out.println("    .#@::%%%%+#%%%%.:%#.. ");
+        System.out.println("     ....@%%%+#%%%%.... . ");
+        System.out.println("       ..%%%%+#%%%#. ");
+        System.out.println("         +%%%+#%%%- ");
+        System.out.println("       ..:%%%-*%%%:.");
+        System.out.println("       ..:%%%-+%%%:.");
+        System.out.println("      ....%%%#@%%%..");
+        System.out.println("      ....%%%#@%%@..");
+        System.out.println("      ....:%%%%%%*.. ");
+        System.out.println("         ..%%%%%%-. ");
+        System.out.println("         . .%%%%%.  ");
+        System.out.println("         ..-%%%%+.  ");
+        System.out.println("         ..%%%%%# ...  ");
+        System.out.println(" ..-+#%%%@@@@@@@@@@%%%#*-. .");
+        System.out.println("   . ...    .....   .....  ");
+
+
         System.out.println("A masked figure offers you a deal. Trust them? (yes/no)");
         if (difficulty == 1) {
             System.out.println("Hint: Risk may bring reward, or pain.");
         }
-
         String trust = scanner.nextLine().toLowerCase();
         if (trust.equals("yes")) {
             Random rand = new Random();
@@ -209,7 +245,7 @@ public class ObsidianOrderGame {
         System.out.println("\n⏳ Trial of Time");
         int firstN = (int)(Math.random() * 10) + 1;
         int secondN = (int)(Math.random() * 10) + 1;
-        System.out.println("You must answer quickly: What is " + firstN * secondN + "?");
+        System.out.println("You must answer quickly: What is " + firstN * 4secondN + "?");
         long start = System.currentTimeMillis();
         int response = scanner.nextInt();
         long end = System.currentTimeMillis();
@@ -234,7 +270,7 @@ public class ObsidianOrderGame {
 
     static void trialOfTruth() {
         System.out.println("\n🪞 Trial of Truth");
-        System.out.println("You face a mirror. It asks: What do you value more? (a) Power (b) Wisdom (c) Loyalty");
+        System.out.println("You face a mirror. It asks: What do you value more? (a) Wisdom (b) Loyalty (c) Power");
         if (difficulty == 1) {
             System.out.println("Hint: True strength lies in the mind.");
         }
